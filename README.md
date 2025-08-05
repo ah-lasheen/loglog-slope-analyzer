@@ -6,8 +6,9 @@ This MATLAB script identifies the **best consecutive subset** of experimental (X
 - **Selected for linearity and steepness, ideal for power-law regions**
 **NOTE: These parameters can be modified in the file.
 
-Sample Output:
-<img width="561" height="499" alt="image" src="https://github.com/user-attachments/assets/bf1588df-1f83-4e7e-93ba-a741a35e5984" />
+## Sample Output:
+<img width="876" height="561" alt="image" src="https://github.com/user-attachments/assets/78e64573-a2d5-466c-8af0-c128fd301c4c" />
+
 
 ## How to Use
 
