@@ -4,27 +4,17 @@ This MATLAB script identifies the **best consecutive subset** of experimental (X
 - **Maximized up to a limit of 2**
 - **Spanning at least 24 and at most 50 points**
 - **Selected for linearity and steepness, ideal for power-law regions**
+**NOTE: These parameters can be modified in the file.
 
-Used in chemical lab data analysis to isolate linear regimes from experimental datasets with varying curvature or nonlinearity.
+Sample Output:
+<img width="561" height="499" alt="image" src="https://github.com/user-attachments/assets/bf1588df-1f83-4e7e-93ba-a741a35e5984" />
 
----
+## How to Use
 
-## 📂 File Structure
-
-.
-├── find_best_loglog_subset.m # Main analysis script
-├── TestData/ # Folder for input text files
-│ ├── t3.txt # Sample input file (user provides others)
-│ └── example.txt # Example format
-├── README.md # This file
-└── .gitignore # Optional, recommended
-
-## 🚀 How to Use
-
-1. Place your data file in the `TestData/` folder (format: `.txt` with 4 numeric columns per row).
+1. Place your data file in the `TestData/` folder (format: `.txt`)
 2. Run the script:
    ```matlab
-   find_best_loglog_subset
+   loglog_slope_analyzer
 When prompted:
 
 Enter the file name (e.g. t3.txt)
@@ -57,19 +47,10 @@ Maximize slope
 
 Break ties by maximizing length
 
-## Lab Use Case
-This tool was developed for a chemical research lab to:
-
-Detect power-law behavior in log-log data
-
-Automatically extract the most linear region
-
-Visualize and validate analysis in one step
-
 ## Requirements
 MATLAB R2020+ (should work on earlier versions too)
 
-Data formatted as a 4-column .txt file (tab or space-delimited)
+Data formatted as a 4-column .txt file (tab or space-delimited. For sample files, review t#.txt in the TestData folder of this repository)
 
 ## License
 This project is licensed under the MIT License — see LICENSE for details.
