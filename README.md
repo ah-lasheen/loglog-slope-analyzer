@@ -1,9 +1,10 @@
 # Log-Log Slope Subset Analyzer
 This MATLAB script identifies the **best consecutive subset** of experimental (X, Y) data where the **slope of the line of best fit** (on a log-log scale) is:
+(NOTE: The following parameters can be modified in the script to user's use-case)
 - **Maximized up to a limit of 2**
 - **Spanning at least 24 and at most 50 points**
 - **Selected for linearity and steepness, ideal for power-law regions**
-# NOTE: These parameters can be modified in the file.
+
 
 ## Sample Output:
 <img width="876" height="561" alt="image" src="https://github.com/user-attachments/assets/78e64573-a2d5-466c-8af0-c128fd301c4c" />
